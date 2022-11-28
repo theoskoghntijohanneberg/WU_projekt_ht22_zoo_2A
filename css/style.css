@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#grid_wrapper {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+    "he he"
+    "na na"
+    "se ar"
+    "se2 arr"
+    "fo fo";
+}
+
+header {
+    height: 80px;
+    width: auto;
+    background-color: aqua;
+    grid-area: he;
+}
+
+nav {
+    display: flex;
+    height: 80px;
+    width: auto;
+    background-color: brown;
+    justify-content: space-around;
+    grid-area: na;
+}
+
+#sec1 {
+    grid-area: se;
+}
+
+#article1 {
+    grid-area: ar;
+}
+
+#article2 {
+    grid-area: arr;
+}
+
+#zoo_img {
+    height: 200px;
+    width: auto;
+}
+
+#zoo_img2 {
+    height: 250px;
+    width: auto;
+}
+
+#sec2 {
+    grid-area: se2;
+}
+
+footer {
+    grid-area: fo;
+}
