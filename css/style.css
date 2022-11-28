@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 #grid_wrapper {
@@ -17,21 +18,72 @@
 header {
     height: 80px;
     width: auto;
-    background-color: aqua;
+    background-color: green;
     grid-area: he;
 }
 
-nav {
+body {
+    background: rgb(231, 246, 207);
+}
+
+h1 {
     display: flex;
-    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+ nav {
+    display: flex;
+    height: 70px;
     width: auto;
-    background-color: brown;
     justify-content: space-around;
     grid-area: na;
 }
 
+.omoss {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(186, 230, 173);
+}
+
+.start {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(186, 230, 173);
+}
+
+.djur {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 80px;
+    width: 100px;
+    background-color: rgb(186, 230, 173);
+}
+
+.valkommen {
+    display: flex;
+    justify-content: center;
+}
+
 #sec1 {
     grid-area: se;
+    display: grid;
+    align-items: center;
+    position: relative;
+    left: 2%;
 }
 
 #article1 {
