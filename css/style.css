@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,20 +9,19 @@
 #grid_wrapper {
     display: grid;
     height: 100vh;
-    background: url("../img/animals/meerkats-zoo-animals-zoological-garden-preview.jpeg");
-    background-size: 1600px;
-    background-repeat: no-repeat;
-    grid-template-columns: minmax(600px, 1fr);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 130px 20px 1000px 25px 1000px 100px;
     grid-template-areas: 
     "he he"
     "na na"
     "se se"
-    "se2 se2";
+    "v v"
+    "se_dj se_dj"
+    "fo fo";
 }
 
+
 header {
-    height: 80px;
-    width: auto;
     background-color: green;
     grid-area: he;
 }
@@ -33,25 +33,38 @@ h1 {
     align-items: center;
     font-family: 'Luckiest Guy', cursive;
     font-size: 2.5rem;
-    background-color: rgb(203, 252, 252);
-}
-a {
-    text-decoration: none;
+    color: rgb(2, 38, 2);
 }
 
+
 h3 {
-    color: green;
+    color: rgb(2, 27, 2);
 }
 
  nav {
     display: flex;
-    height: 70px;
-    width: auto;
-    justify-content: center;
+    justify-content: space-around;
     grid-area: na;
 }
 
-.omoss {
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: row;
+    grid-area: na;
+    position: relative;
+    bottom: 45%;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: rgb(32, 164, 32);
+    height: 33px;
+    width: 5000px;
+    border: 2px solid rgb(3, 92, 40);
+    border-radius: 3px;
+}
+
+/* .omoss {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -61,6 +74,7 @@ h3 {
     width: 80px;
     background-color: rgb(186, 230, 173);
     margin: 10px;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .start {
@@ -73,6 +87,7 @@ h3 {
     width: 80px;
     background-color: rgb(186, 230, 173);
     margin: 10px;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .djur {
@@ -86,15 +101,22 @@ h3 {
     background-color: rgb(186, 230, 173);
     margin: 10px;
     padding: 5px;
-}
+    font-family: 'Rajdhani', sans-serif;
+} */
 
 .valkommen {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 3rem;
-    font-family: 'Luckiest Guy', cursive;
+    margin-top: 350px;
+    font-size: 4rem;
+    font-family: 'Rajdhani', sans-serif;
     color: rgb(255, 255, 255);
+}
+
+#nti {
+    color: purple;
+    font-style: normal;
 }
 
 /* #sec1 {
@@ -110,20 +132,216 @@ h3 {
     width: 610px;
 } */
 
+#sec1{
+    grid-area: se;
+    background: url("../img/animals/jackie-park-3SBfM2-ytb8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    
+}
 
-#sec2 {
-    grid-area: se2;
-    display: grid;
-    align-items: center;
-    border: 2px solid black;
-    height: 210px;
-    width: 210px;
+#sec_djur {
+    grid-area: se_dj;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    border-radius: 5px;
-    background-color: rgba(142, 240, 112, 0.5);
+    background: rgb(220, 176, 109);
+
+}
+
+.vara_djur {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    grid-area: v;
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+
+body {
+    background: rgb(192, 150, 89);
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-area: fo;
+    background: rgb(192, 150, 89);
 }
 
 
+#grid_wrapper2 {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 130px 20px 1px 400px 400px 400px 100px;
+    grid-template-areas: 
+    "he he he"
+    "na na na"
+    "h h h"
+    "se_fo se_fo se_fo"
+    "se_fo2 se_fo2 se_fo2"
+    "se_fo3 se_fo3 se_fo3"
+    "fo fo fo";
+}
+
+.veckans {
+    display: flex;
+    font-family: 'Luckiest Guy', sans-serif;
+    margin-top: 65px;
+    grid-area: h;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+
+#sec_meny {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    grid-area: se_fo;
+    margin-top: 100px;
+}
+
+
+#sec_meny2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    grid-area: se_fo2;
+    margin-top: 50px;
+}
+
+
+#sec_meny3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    grid-area: se_fo3;
+    margin-bottom: 400px;
+}
+
+.djurr {
+    width: 400px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.food {
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+
+
+
+.bild_mat1 {
+    height: 50%;
+    border: 2px solid black;
+    border-radius: 45px;
+}
+
+.bild_mat2 {
+    height: 37%;
+}
+
+.bild_mat3 {
+    height: 50%;
+}
+
+
+.bild_djur {
+    height: 90%;
+}
+
+.bild_djur2 {
+    height: 90%;
+    width: 350px;
+}
+
+.bild_djur3 {
+    height: 90%;
+    width: 350px;
+}
+
+.bild_djur4 {
+    height: 90%;
+    width: 350px;
+}
+
+.bild_djur5 {
+    height: 90%;
+    width: 300px;
+}
+
+.bild_djur6 {
+    height: 90%;
+    width: 230px;
+}
+
+#body_restaurang {
+    background: rgb(215, 180, 126);
+}
+
+
+
+#grid_wrapper3 {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 130px 20px 75px 100px;
+    grid-template-areas: 
+    "he he"
+    "na na"
+    "se se"
+    "so so"
+    "se2 se2"
+    "fo fo";
+}
+
+#sec_om {
+    grid-area: so;
+}
+
 #sec2 {
     grid-area: se2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    border-radius: 6.5px;
+    /* background-color: rgba(142, 240, 112, 0.5); */
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.varp {
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Luckiest Guy', sans-serif;
 }
