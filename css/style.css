@@ -66,45 +66,6 @@ a {
     border-radius: 3px;
 }
 
-/* .omoss {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border: 2px solid black;
-    border-radius: 15px;
-    height: 80px;
-    width: 80px;
-    background-color: rgb(186, 230, 173);
-    margin: 10px;
-    font-family: 'Rajdhani', sans-serif;
-}
-
-.start {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border: 2px solid black;
-    border-radius: 15px;
-    height: 80px;
-    width: 80px;
-    background-color: rgb(186, 230, 173);
-    margin: 10px;
-    font-family: 'Rajdhani', sans-serif;
-}
-
-.djur {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border: 2px solid black;
-    border-radius: 15px;
-    height: 80px;
-    width: 100px;
-    background-color: rgb(186, 230, 173);
-    margin: 10px;
-    padding: 5px;
-    font-family: 'Rajdhani', sans-serif;
-} */
 
 .valkommen {
     display: flex;
@@ -121,18 +82,6 @@ a {
     font-style: normal;
 }
 
-/* #sec1 {
-    grid-area: se;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    left: 40%;
-    bottom: 3%;
-    height: 195px;
-    width: 610px;
-} */
 
 #sec1{
     grid-area: se;
@@ -359,21 +308,13 @@ footer {
     "fo fo";
 }
 
-/* #sec_djur {
-    grid-area: se_dj;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background: rgb(220, 176, 109);
-    margin: 50px;
-} */
 
 #sec_om {
     grid-area: se_om;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(118, 185, 160);
+    background-color: rgb(216, 207, 159);
     margin: 30px;
 }
 
@@ -387,7 +328,7 @@ footer {
     width: 200px;
     justify-content: center;
     border-radius: 15px;
-    background: rgba(138, 194, 148, 0.2);
+    background: rgba(255, 255, 255, 0.2);
     font-family: 'Rajdhani', sans-serif;
     margin-left: 650px;
     position: relative;
@@ -409,7 +350,7 @@ footer {
 
 #sec_omosstext {
     grid-area: se_omtx;
-    background-color: rgb(118, 185, 160);
+    background-color: rgb(216, 207, 159);
     width: 2000px;
 }
 
@@ -444,7 +385,7 @@ footer {
     margin: 10px;
     padding: 15px;
     text-align: center;
-    background: rgb(138, 194, 148);
+    background-color: rgb(252, 237, 152);
     font-family: 'Rajdhani', sans-serif;
     margin-top: 150px;
     position: relative;
@@ -481,5 +422,5 @@ footer {
 }
 
 #body_omoss {
-    background: rgb(181, 240, 197);
+    background: rgb(215, 180, 126);
 }
