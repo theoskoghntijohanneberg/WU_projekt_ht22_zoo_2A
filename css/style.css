@@ -10,7 +10,7 @@
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 130px 20px 1000px 25px 1500px 100px;
+    grid-template-rows: 130px 20px 1000px 25px 1200px 100px;
     grid-template-areas: 
     "he he"
     "na na"
@@ -101,18 +101,12 @@ a {
 }
 
 #djur_text {
-    padding: 10px;
+    padding: 15px;
     margin: 60px;
     font-family: 'Rajdhani', sans-serif;
     width: 1000px;
 }
 
-#djur_text2 {
-    width: 1000px;
-    padding: 10px;
-    margin: 60px;
-    font-family: 'Rajdhani', sans-serif;
-}
 
 .vara_djur {
     display: flex;
@@ -122,6 +116,7 @@ a {
     font-family: 'Luckiest Guy', sans-serif;
     font-size: 2.5rem;
     margin-bottom: 40px;
+    color: rgb(2, 65, 2);
 }
 
 body {
@@ -138,7 +133,7 @@ footer {
 }
 
 
-#grid_wrapper2 {
+#grid_wrapper_restaurang {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr;
@@ -225,21 +220,30 @@ footer {
 
 
 
-
-.bild_mat1 {
+.bild_mat {
     height: 50%;
     border: 2px solid black;
     border-radius: 200px 200px 200px 200px;
 }
 
-.bild_mat2 {
-    height: 37%;
+
+#bild_pannkaka {
+    height: 65%;
+    width: 55%;
     border: 2px solid black;
     border-radius: 200px 200px 200px 200px;
 }
 
-.bild_mat3 {
-    height: 50%;
+#bild_kaffe {
+    height: 60%;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 200px 200px 200px 200px;
+}
+
+#bild_lask {
+    height: 60%;
+    width: 40%;
     border: 2px solid black;
     border-radius: 200px 200px 200px 200px;
 }
@@ -292,7 +296,7 @@ footer {
 
 
 
-#grid_wrapper3 {
+#grid_wrapper_omoss {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr;
@@ -314,7 +318,7 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(216, 207, 159);
+    background-color: rgb(216, 202, 159);
     margin: 30px;
 }
 
@@ -350,7 +354,7 @@ footer {
 
 #sec_omosstext {
     grid-area: se_omtx;
-    background-color: rgb(216, 207, 159);
+    background-color: rgb(216, 202, 159);
     width: 2000px;
 }
 
